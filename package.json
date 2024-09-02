@@ -5,8 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "build": "vite build --base=/pokemon/",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build --base=/pokemon/"
   },
   "author": "Mary",
   "license": "ISC",
