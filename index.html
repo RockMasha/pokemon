@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pokemon</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="loading"></div>
+    <section class="name">
+      <div class="container name-container">
+        <form class="name-form">
+          <h2 class="name-form-title">search pokemon by name</h2>
+          <input
+            class="name-form-enter"
+            name="inputName"
+            type="text"
+            placeholder="Enter pokemon name"
+          />
+          <p class="name-form-text">
+            Finding the Pokemon you need is very easy. To do this, you need to
+            enter his name correctly and press on button search
+          </p>
+          <button class="name-form-submit" type="submit">search</button>
+        </form>
+        <div class="name-card">
+          <div>
+            <p class="name-card-name">name: OLEH</p>
+            <p class="name-card-height">height: 180cm</p>
+            <p class="name-card-weight">weight: 115kg</p>
+            <p class="name-card-element">element: OLEH</p>
+          </div>
+          <img class="name-card-img" src="./img/Oleh.PNG" alt="OLEH" />
+        </div>
+      </div>
+    </section>
+    <section class="element">
+      <div class="container">
+        <form class="element-form">
+          <div>
+            <h2 class="element-form-title">search pokemon by element</h2>
+            <input
+              class="element-form-enter"
+              name="inputElement"
+              type="text"
+              placeholder="Enter pokemon's element"
+            />
+          </div>
+          <button class="element-form-submit" type="submit">search</button>
+        </form>
+        <ul class="element-list">
+          <li class="element-list-item">
+            <img
+              class="element-list-item-img"
+              src="./img/Oleh2.jpg"
+              alt="OLEH"
+            />
+            <p class="element-list-item-name">name: Юля</p>
+            <p class="element-list-item-height">height: 172cm</p>
+            <p class="element-list-item-weight">weight: 10000kg</p>
+            <p class="element-list-item-element">element: OLEH</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
